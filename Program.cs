@@ -57,9 +57,9 @@ Console.WriteLine("Введите число:");
 int numberA = Convert.ToInt32(Console.ReadLine());
 if ((numberA%2)==0)
 {
-    Console.WriteLine("Число: " + numberA + " - четное");
+    Console.WriteLine("да");
 }
-else Console.WriteLine("Число: " + numberA + " - нечетное");
+else Console.WriteLine("нет");
 
 /*Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
